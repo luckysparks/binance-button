@@ -1,13 +1,19 @@
-Installation instructions: 
-	- Install node.js
-	- Copy files to any directory
-	- Run following commands:
-	-- npm install -g pm2
-	-- npm install
-	-- npm index.js
+# Installation instructions: 
 
-	When tested you can start a new process by:
-	- pm2 start index.js
+- Install node.js
+- Copy files to any directory
+- Run following commands:
+```
+npm install -g pm2
+npm install
+npm index.js
+```
 
-	And then check logs:
-	- pm2 logs index.js
+When tested you can start a new process by:
+```pm2 start index.js```
+
+And then check logs:
+```pm2 logs index.js```
+
+> No guarentees or support whatsoever
+
