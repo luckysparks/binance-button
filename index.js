@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const moment = require('moment');
 const axios = require('axios').default;
 
-//Too lazy to reverse these three, open chrome dev tools, click button, add your own values
+//Too lazy to reverse these, open chrome dev tools, click button, add your own values
 axios.defaults.headers.common['cookie'] = '';
 axios.defaults.headers.common['csrftoken'] = '';
 axios.defaults.headers.common['device-info'] = '';
