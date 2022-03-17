@@ -8,7 +8,6 @@ axios.defaults.headers.common['csrftoken'] = '';
 axios.defaults.headers.common['device-info'] = '';
 axios.defaults.headers.common['fvideo-id'] = '';
 axios.defaults.headers.common['x-trace-id'] = '';
-axios.defaults.headers.common['x-trace-id'] = '';
 axios.defaults.headers.common['x-ui-request-trace'] = '';
 axios.defaults.headers.common['bnc-uuid'] = '';
 
